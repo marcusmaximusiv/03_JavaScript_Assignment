@@ -10,14 +10,7 @@ Pseudocode
 
 */
 
-
-
-//Global variables for application to connect to html
-
-
 //Game Object
-
-
 var game{
     heroes= [
         "hulk",
@@ -29,9 +22,9 @@ var game{
     ],
     guesses = 10,
     letter_guess = [],
-    WordIndex,
+    index,
     guessed_word = [],
-    guesses_remain = 0,
+    guesses_remain = 10,
     start = false,
     finished = false,
     wins = 0
@@ -44,9 +37,17 @@ function reset() {
     game.guessed_word = [];
     game.letter_guess = [];
     game.guesses = 10;
-    for 
+    for (var i = 0; i < heroes[index].length){
+        guessed_word.append("_");
+    }
+};
+
+function display(){
+    document.getElementById("wins");
+    document.getE
 
 }
+
 
 
 
