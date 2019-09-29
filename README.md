@@ -4,7 +4,6 @@
 # 1) Setup the webpage with HTML (check)
 # 2) Implement play functionality of the Marvel theme songs on shuffle
 # 3) Focus on getting the words guessed. This will be split up into parts
-
 # 4) Focus on getting the onkey up for each key to work as expected
 # 5) Focus on getting the onkey up to append to the word guess section 
 # 6) Focus on getting the number counter for times remaining to work as expected
